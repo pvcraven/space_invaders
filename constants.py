@@ -1,0 +1,31 @@
+SPRITE_SCALING_PLAYER = 6
+SPRITE_SCALING_enemy = 6
+SPRITE_SCALING_LASER = 6
+
+SCREEN_WIDTH = 1200
+SCREEN_HEIGHT = 1000
+SCREEN_TITLE = "Space Invaders"
+
+PLAYER_BULLET_SPEED = 8
+BULLET_SPEED = 5
+ENEMY_SPEED = 1.5
+
+MAX_PLAYER_BULLETS = 3
+
+DEATH_PAUSE_TIME = 0.85
+
+# This margin controls how close the enemy gets to the left or right side
+# before reversing direction.
+ENEMY_VERTICAL_MARGIN = 15
+RIGHT_ENEMY_BORDER = SCREEN_WIDTH - ENEMY_VERTICAL_MARGIN
+LEFT_ENEMY_BORDER = ENEMY_VERTICAL_MARGIN
+
+# How many pixels to move the enemy down when reversing
+ENEMY_MOVE_DOWN_AMOUNT = 30
+
+# Game state
+GAME_OVER = 1
+PLAY_GAME = 0
+
+PLAYER_COLOR = 24, 255, 24
+ENEMY_EXPLOSION_COLOR = 128, 0, 0
